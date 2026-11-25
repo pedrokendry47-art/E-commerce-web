@@ -1,0 +1,15 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,jsx}'],
+  theme: {
+    extend: {
+      fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'], display: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'] },
+      colors: {
+        brand: { 50: '#eef6ff', 100: '#d9eaff', 500: '#2563eb', 600: '#1d4ed8', 700: '#1e40af', 900: '#0f1f4d' },
+        ink: { 900: '#0b1220', 700: '#334155', 500: '#64748b', 200: '#e2e8f0', 100: '#f1f5f9' },
+      },
+      boxShadow: { card: '0 1px 2px rgba(15,23,42,.06), 0 8px 24px rgba(15,23,42,.06)' },
+    },
+  },
+  plugins: [],
+};
